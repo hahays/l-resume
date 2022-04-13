@@ -1,4 +1,4 @@
-nav {
+.navibar {
   background: var(--black-shadow);
   width: max-content;
   display: block;
@@ -14,7 +14,7 @@ nav {
   backdrop-filter: blue(15px);
 }
 
-nav a {
+.navibar a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
@@ -23,11 +23,11 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav a:hover {
+.navibar a:hover {
   background: var(--black-shadow);
 }
 
-nav a.active {
+.navibar a.active {
   background: linear-gradient(
     to top,
     #e5c6d7,

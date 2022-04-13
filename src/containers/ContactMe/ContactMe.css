@@ -24,8 +24,8 @@
   line-height: 1.2;
 }
 
-form input,
-textarea {
+.main-input,
+.main-textarea {
   width: 100%;
   border: 1px solid var(--light-black-shadow);
   outline: none;
@@ -37,22 +37,14 @@ textarea {
   transition: 0.3s;
 }
 
-textarea:focus {
+.main-textarea:focus {
   border: 1px solid var(--pink-border);
   background-color: var(--pink-shadow);
 }
 
-form input:focus {
+.main-input:focus {
   border: 1px solid var(--pink-border);
   background-color: var(--pink-shadow);
-}
-
-form {
-  flex: 0.9;
-}
-
-button .load {
-  width: 100%;
 }
 
 .send-btn {

@@ -10,74 +10,74 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./Resume.css";
 
+const resumeBullets = [
+  {
+    label: "Education",
+    logoSrc: "education.svg",
+  },
+  {
+    label: "Programming Skills",
+    logoSrc: "programming-skills.svg",
+  },
+  {
+    label: "Projects",
+    logoSrc: "projects.svg",
+  },
+  {
+    label: "Interests",
+    logoSrc: "interests.svg",
+  },
+];
+
+const programmingSkillsDetails = [
+  {
+    skill: "JavaScript",
+    ratingPercentage: 60,
+  },
+  {
+    skill: "React JS",
+    ratingPercentage: 40,
+  },
+  {
+    skill: "Express JS",
+    ratingPercentage: 15,
+  },
+  {
+    skill: "Node JS",
+    ratingPercentage: 10,
+  },
+  {
+    skill: "HTML",
+    ratingPercentage: 70,
+  },
+  {
+    skill: "CSS",
+    ratingPercentage: 80,
+  },
+];
+
+const projectsDetails = [
+  {
+    id: 1,
+    image: IGM1,
+    title: "To do app",
+    description: "My do to application. Create with REACT, JS and Bootstrap",
+    source: "https://github.com/hahays/todo.app",
+    live: "https://hahays.github.io/todo.app/",
+  },
+  {
+    id: 1,
+    image: IGM2,
+    title: "WIP",
+    description: "I'm still working on something new",
+    source: "",
+    live: "",
+  },
+];
+
 const Resume = () => {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
   const [carousalOffsetStyle, setCarousalOffsetStyle] = useState({});
-
-  const resumeBullets = [
-    {
-      label: "Education",
-      logoSrc: "education.svg",
-    },
-    {
-      label: "Programming Skills",
-      logoSrc: "programming-skills.svg",
-    },
-    {
-      label: "Projects",
-      logoSrc: "projects.svg",
-    },
-    {
-      label: "Interests",
-      logoSrc: "interests.svg",
-    },
-  ];
-
-  const programmingSkillsDetails = [
-    {
-      skill: "JavaScript",
-      ratingPercentage: 60,
-    },
-    {
-      skill: "React JS",
-      ratingPercentage: 40,
-    },
-    {
-      skill: "Express JS",
-      ratingPercentage: 15,
-    },
-    {
-      skill: "Node JS",
-      ratingPercentage: 10,
-    },
-    {
-      skill: "HTML",
-      ratingPercentage: 70,
-    },
-    {
-      skill: "CSS",
-      ratingPercentage: 80,
-    },
-  ];
-
-  const projectsDetails = [
-    {
-      id: 1,
-      image: IGM1,
-      title: "To do app",
-      description: "My do to application. Create with REACT, JS and Bootstrap",
-      source: "https://github.com/hahays/todo.app",
-      live: "https://hahays.github.io/todo.app/",
-    },
-    {
-      id: 1,
-      image: IGM2,
-      title: "WIP",
-      description: "I'm still working on something new",
-      source: "",
-      live: "",
-    },
-  ];
 
   const resumeDetails = (
     <React.Fragment>

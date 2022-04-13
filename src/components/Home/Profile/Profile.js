@@ -1,6 +1,24 @@
 import React from "react";
 import "./Profile.css";
 
+const linksInfo = [
+  {
+    name: "instagram",
+    source: "https://www.instagram.com/r.hahays/",
+    classname: "fa fa-instagram",
+  },
+  {
+    name: "vk",
+    source: "https://vk.com/ghoukie",
+    classname: "fa fa-vk",
+  },
+  {
+    name: "github",
+    source: "https://github.com/hahays",
+    classname: "fa fa-github",
+  },
+];
+
 const Profile = () => {
   return (
     <div className="profile-container">
@@ -8,15 +26,13 @@ const Profile = () => {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://vk.com/ghoukie">
-                <i class="fa fa-vk" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.instagram.com/r.hahays/">
-                <i className="fa fa-instagram"> </i>
-              </a>
-              <a href="https://github.com/hahays">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
+              {linksInfo.map((link) => {
+                return (
+                  <a href={link.source}>
+                    <i className={link.classname} aria-hidden="true"></i>
+                  </a>
+                );
+              })}
             </div>
           </div>
           <div className="profile-details-name">

@@ -4,6 +4,7 @@ import ScrollSerivce from "../../utilities/ScrollService";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import classNames from "classnames/bind";
 import "./navigation.css";
 
 const Navigation = () => {
@@ -21,38 +22,37 @@ const Navigation = () => {
   let currentScreenSubscription =
     ScrollSerivce.currentScreenBroadCaster.subscribe(updateCurrentScreen);
 
-  const getHeaderOptionsClass = (index) => {
-    let classes = "header-option ";
-    if (selectedScreen === index) classes += "active ";
-
-    return classes;
-  };
-
   useEffect(() => {
     return () => {
       currentScreenSubscription.unsubscribe();
     };
   }, [currentScreenSubscription]);
   return (
-    <nav>
+    <nav className="navibar">
       <a
         href="#"
         onClick={() => setActiveNav("#")}
-        className={getHeaderOptionsClass(0)}
+        className={classNames("header-option", {
+          active: selectedScreen === 0,
+        })}
       >
         <AiOutlineHome />
       </a>
       <a
         href="#resume"
         onClick={() => setActiveNav("#resume")}
-        className={getHeaderOptionsClass(1)}
+        className={classNames("header-option", {
+          active: selectedScreen === 1,
+        })}
       >
         <AiOutlineUser />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
-        className={getHeaderOptionsClass(2)}
+        className={classNames("header-option", {
+          active: selectedScreen === 2,
+        })}
       >
         <BiMessageSquareDetail />
       </a>

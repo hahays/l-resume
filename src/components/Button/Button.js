@@ -1,12 +1,11 @@
 import React from "react";
 import "./Button.css";
 
-function Button(props) {
+function Button({ className, disabled, name }) {
   return (
-    <button className={props.className} disabled={props.disabled}>
-      {props.name}
+    <button className={className} disabled={disabled}>
+      {name}
     </button>
   );
 }
-
 export default Button;

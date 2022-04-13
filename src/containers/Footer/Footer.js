@@ -13,7 +13,7 @@ let socialDetails = [
   { icon: faInstagram, link: "https://www.instagram.com/r.hahays/" },
 ];
 
-let currentYear = new Date().getFullYear();
+let currentYear = "2022";
 
 const getSocials = () => {
   return socialDetails.map((social, index) => (

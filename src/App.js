@@ -8,13 +8,13 @@ import Footer from "./containers/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <Navigation />
       <Home />
       <Resume />
       <ContactMe />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 export default App;

@@ -45,6 +45,7 @@ const ContactMe = () => {
             <form onSubmit={handleSubmit}>
               <label htmlFor="name">Name</label>
               <input
+                className="main-input"
                 required
                 pattern={name}
                 id="name"
@@ -61,6 +62,7 @@ const ContactMe = () => {
 
               <label htmlFor="email">Email</label>
               <input
+                className="main-input"
                 required
                 pattern={email}
                 id="email"
@@ -76,6 +78,7 @@ const ContactMe = () => {
               />
               <label htmlFor="message">Message</label>
               <textarea
+                className="main-textarea"
                 required
                 pattern={message}
                 id="message"
