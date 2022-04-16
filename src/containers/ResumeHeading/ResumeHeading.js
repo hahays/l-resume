@@ -6,14 +6,15 @@ function ResumeHeading(props) {
     <div className="resume-heading">
       <div className="resume-main-heading">
         <div className="heading-bullet"></div>
-        {props.image && <img className="project-image" src={props.image} />}
-        <span>{props.heading ? props.heading : ""}</span>
-        {props.fromDate && props.toDate ? (
-          <div className="heading-date">
-            {props.fromDate + "-" + props.toDate}
+        {props.heading && (
+          <div className="resume-heading">
+            <span>{props.heading}</span>
           </div>
-        ) : (
-          ""
+        )}
+        {props.fromDate && props.toDate && (
+          <div className="heading-date">
+            <span>{props.fromDate + " - " + props.toDate}</span>
+          </div>
         )}
       </div>
       {props.subHeading && (

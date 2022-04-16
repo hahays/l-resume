@@ -13,7 +13,7 @@ let socialDetails = [
   { icon: faInstagram, link: "https://www.instagram.com/r.hahays/" },
 ];
 
-let currentYear = "2022";
+let releaseDate = "2022";
 
 const getSocials = () => {
   return socialDetails.map((social, index) => (
@@ -28,7 +28,7 @@ const Footer = () => {
     <div className="main-footer-container">
       <div className="main-footer-content">
         <div className="main-footer-message">
-          <span>All rights reserved © Ghoukie {currentYear}</span>
+          <span>All rights reserved © Ghoukie {releaseDate}</span>
         </div>
         <div className="main-footer-socials">{getSocials()}</div>
       </div>

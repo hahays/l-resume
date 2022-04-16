@@ -4,7 +4,7 @@ import ScrollSerivce from "../../utilities/ScrollService";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiMessageSquareDetail } from "react-icons/bi";
-import classNames from "classnames/bind";
+import classNames from "classnames";
 import "./navigation.css";
 
 const Navigation = () => {
