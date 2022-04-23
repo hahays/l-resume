@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --white: #ffffff;
+  --white-green: rgb(202, 250, 234);
+  --black: #333333;
+  --black-shadow: rgba(0, 0, 0, 0.3);
+  --black-border: rgba(59, 60, 63, 0.47);
+  --light-black-shadow: rgba(0, 0, 0, 0.2);
+  --grey: #b6b6c2;
+  --pink-shadow: #ceb2cb;
+  --light-pink: #42343c;
+  --pink: #ae3fb8;
+  --pink-border: rgba(172, 166, 172, 0.47);
+  --shadow-box: rgb(64, 67, 68);
+  --blue-black: #15151b;
+  --blue-green: rgb(37, 179, 148);
+  --light-blue-shadow: rgb(69 211 255 / 27%);
+  --light-blue: rgb(103, 198, 221);
+  --sea: rgb(57, 186, 209);
+  --sea-green: #0abead;
+  --sea-green-dark: #0cbfae;
+  --light-blue-black: #1f2235;
+  --green: rgb(60, 218, 60);
+  --sea-green-extra-dark: #09bead;
+  --sea-green-shadow: rgba(11, 190, 173, 0.4);
+  --orange-shadow: rgba(245, 127, 23, 0.2);
+  --disabled-btn: #09bead7a;
+  --error-message: #e44f4fd1;
+  --toast-error: #e44f4ffa;
+  --toast-shadow: rgb(230, 230, 230, 0.6);
+  --toast-success: #0cbfae;
 }

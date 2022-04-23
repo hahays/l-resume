@@ -1,0 +1,18 @@
+.resume-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-main-heading {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-main-heading span {
+  letter-spacing: 0.1rem;
+  font-family: "Poppins Bold";
+  font-size: 16px;
+  color: var(--white);
+  text-shadow: 2px 1px 0px var(--black);
+}

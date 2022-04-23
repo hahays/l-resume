@@ -1,0 +1,86 @@
+.main-container {
+  min-height: 80vh;
+  padding: 80px 0 80px;
+}
+
+.central-form h2 {
+  color: var(--white);
+  font-family: "Poppins Bold";
+  letter-spacing: 0.2rem;
+  margin-bottom: 20px;
+}
+
+.back-form {
+  max-width: 380px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  color: var(--black);
+  letter-spacing: 0.2rem;
+}
+
+.central-form h4 {
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 2px 3px 0px var(--grey);
+  line-height: 1.2;
+}
+
+.main-input,
+.main-textarea {
+  width: 100%;
+  border: 1px solid var(--light-black-shadow);
+  outline: none;
+  background-color: var(--toast-shadow);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.main-textarea:focus {
+  border: 1px solid var(--pink-border);
+  background-color: var(--pink-shadow);
+}
+
+.main-input:focus {
+  border: 1px solid var(--pink-border);
+  background-color: var(--pink-shadow);
+}
+
+.send-btn {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.col i {
+  padding: 7px;
+  color: var(--black);
+}
+
+.col i:hover {
+  transform: scale(1.5);
+}
+
+@media screen and(min-width: 940px) {
+  .back-form {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .img-back {
+    flex: 1;
+    align-self: center;
+    margin-right: 20px;
+  }
+  form {
+    flex: 0.9;
+  }
+  @media screen and (max-width: 414px) {
+    .central-form h2 {
+      font-size: 16px;
+    }
+  }
+}
