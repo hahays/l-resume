@@ -1,4 +1,5 @@
 import React from "react";
+import RESUME from "../../../assets/Resume/resume.pdf";
 import "./Profile.css";
 
 const linksInfo = [
@@ -43,7 +44,7 @@ const Profile = () => {
           <div className="profile-details-role">
             <span className="primary-text">
               <span className="profile-role-tagline">
-                I study programming and dream about petite-girl.
+                I'm a frontend developer.
               </span>
             </span>
           </div>
@@ -51,7 +52,7 @@ const Profile = () => {
             <a href="#contact">
               <button className="btn primary-btn">Contact me</button>
             </a>
-            <a href="resume.docx" download="Roman resume.docx">
+            <a href={RESUME} download="Roman resume.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

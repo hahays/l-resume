@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import ScreenHeading from "../../components/ScreenHeading/ScreenHeading";
 import ResumeHeading from "../ResumeHeading/ResumeHeading";
 import Projects from "../Projects/Projects";
-import IGM1 from "./img/project1.png";
-import IGM2 from "./img/project2.png";
+import IGM1 from "./img/todo.png";
+import IGM2 from "./img/marioQuiz.png";
+import IGM3 from "./img/gameBox.png";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -36,15 +37,15 @@ const programmingSkillsDetails = [
   },
   {
     skill: "React JS",
-    ratingPercentage: 40,
+    ratingPercentage: 70,
   },
   {
-    skill: "Express JS",
-    ratingPercentage: 15,
+    skill: "TypeScript",
+    ratingPercentage: 20,
   },
   {
-    skill: "Node JS",
-    ratingPercentage: 10,
+    skill: "NES CSS",
+    ratingPercentage: 75,
   },
   {
     skill: "HTML",
@@ -61,17 +62,25 @@ const projectsDetails = [
     id: 1,
     image: IGM1,
     title: "To do app",
-    description: "My do to application. Create with REACT, JS and Bootstrap",
+    description: "My do to application. Create with REACT, JS and NESS.CSS",
     source: "https://github.com/hahays/todo.app",
     live: "https://hahays.github.io/todo.app/",
   },
   {
     id: 1,
     image: IGM2,
-    title: "WIP",
-    description: "I'm still working on something new",
-    source: "",
-    live: "",
+    title: "Mario Quiz",
+    description: "Mario's adventure where you need to save Princess Pitch",
+    source: "https://github.com/hahays/marioQuiz",
+    live: "https://hahays.github.io/marioQuiz/",
+  },
+  {
+    id: 1,
+    image: IGM3,
+    title: "Game Box",
+    description: "Collection of 6 classic 16bit games",
+    source: "https://github.com/hahays/Game-Box",
+    live: "https://hahays.github.io/Game-Box/",
   },
 ];
 
@@ -135,14 +144,17 @@ const Resume = () => {
       </div>
       <div className="resume-screen-container" key="interests">
         <ResumeHeading
-          heading="Play a games"
-          description="Love so much play a computer games."
+          heading="Writing poetry"
+          description="Wrote more than 10 poems and two short stories."
         />
         <ResumeHeading
           heading="Create some Music"
           description="My outlet is to write different electronic music "
         />
-        <ResumeHeading heading="Tv shows" description=" I LOVE SO MUCH TV" />
+        <ResumeHeading
+          heading="Sport"
+          description=" Breakdancing, athletics, cycling"
+        />
       </div>
     </React.Fragment>
   );
