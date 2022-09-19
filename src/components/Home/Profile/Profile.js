@@ -37,23 +37,22 @@ const Profile = () => {
             </div>
           </div>
           <div className="profile-details-name">
-            <span className="primary-text">
-              Hello, I'm <span className="highlighted-text"> Roman</span>
-            </span>
+            <span className="primary-text">HELLO! </span>
           </div>
           <div className="profile-details-role">
-            <span className="primary-text">
-              <span className="profile-role-tagline">
-                I'm a frontend developer.
-              </span>
-            </span>
+            <p className="profile-role-tagline">
+              My name is Roman, i am a web-developer. Love create some
+              interesting disign for web sites.There is a little information
+              about me and my pet-projects.
+            </p>
           </div>
+
           <div className="profile-options">
             <a href="#contact">
-              <button className="btn primary-btn">Contact me</button>
+              <button className="btn primary-btn">SEND</button>
             </a>
             <a href={RESUME} download="Roman resume.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
+              <button className="btn highlighted-btn">GET RESUME</button>
             </a>
           </div>
         </div>

@@ -33,7 +33,7 @@ const resumeBullets = [
 const programmingSkillsDetails = [
   {
     skill: "JavaScript",
-    ratingPercentage: 60,
+    ratingPercentage: 80,
   },
   {
     skill: "React JS",
@@ -44,8 +44,8 @@ const programmingSkillsDetails = [
     ratingPercentage: 20,
   },
   {
-    skill: "NES CSS",
-    ratingPercentage: 75,
+    skill: "Redux",
+    ratingPercentage: 45,
   },
   {
     skill: "HTML",
@@ -61,24 +61,45 @@ const projectsDetails = [
   {
     id: 1,
     image: IGM1,
-    title: "To do app",
-    description: "My do to application. Create with REACT, JS and NESS.CSS",
+    title: "TODO APP",
+    description: (
+      <span>
+        Classic TODO Application. You can save TODO's on a local server. Created
+        with <span className="used-react">REACT</span>,{" "}
+        <span className="used-js">JS</span> and{" "}
+        <span className="used-paper">PAPER.CSS</span>
+      </span>
+    ),
     source: "https://github.com/hahays/todo.app",
     live: "https://hahays.github.io/todo.app/",
   },
   {
     id: 1,
     image: IGM2,
-    title: "Mario Quiz",
-    description: "Mario's adventure where you need to save Princess Pitch",
+    title: "MARIO QUIZ",
+    description: (
+      <span>
+        Mario's adventure where you need to save Princess Pitch.Created with{" "}
+        <span className="used-react">REACT</span>,{" "}
+        <span className="used-js">JS</span> and{" "}
+        <span className="used-nes">NES.CSS</span>
+      </span>
+    ),
     source: "https://github.com/hahays/marioQuiz",
     live: "https://hahays.github.io/marioQuiz/",
   },
   {
     id: 1,
     image: IGM3,
-    title: "Game Box",
-    description: "Collection of 6 classic 16bit games",
+    title: "GAME BOX",
+    description: (
+      <span>
+        Collection of 6 classic 16bit games. Created with{" "}
+        <span className="used-react">REACT</span>,{" "}
+        <span className="used-js">JS</span> and{" "}
+        <span className="used-paper">PAPER.CSS</span>
+      </span>
+    ),
     source: "https://github.com/hahays/Game-Box",
     live: "https://hahays.github.io/Game-Box/",
   },
@@ -92,14 +113,14 @@ const Resume = () => {
     <React.Fragment>
       <div className="resume-screen-container" key="education">
         <ResumeHeading
-          heading={"LYCEUM № 11, Blagoveschensk"}
-          subHeading={"Physics and mathematics class"}
+          heading={"LYCEUM № 11, BLAGOVESHENSK"}
+          subHeading={"Physics and mathematics class."}
           fromDate={"2001"}
           toDate={"2012"}
         />
         <ResumeHeading
           heading={"Amur State University, Blagoveschensk"}
-          subHeading={"Specialist in Economics"}
+          subHeading={"Specialist in Economics."}
           fromDate={"2012"}
           toDate={"2017"}
         />
@@ -144,16 +165,16 @@ const Resume = () => {
       </div>
       <div className="resume-screen-container" key="interests">
         <ResumeHeading
-          heading="Writing poetry"
+          heading="WRITING POETRY"
           description="Wrote more than 10 poems and two short stories."
         />
         <ResumeHeading
-          heading="Create some Music"
-          description="My outlet is to write different electronic music "
+          heading="CREATE MUSIC"
+          description="My outlet is to write different electronic music. "
         />
         <ResumeHeading
-          heading="Sport"
-          description=" Breakdancing, athletics, cycling"
+          heading="SPORT"
+          description=" Breakdancing, athletics, cycling."
         />
       </div>
     </React.Fragment>
@@ -208,14 +229,16 @@ const Resume = () => {
             title={"Resume"}
             subHeading={"My formal Bio Details"}
           />
-          <div className="resume-card">
-            <div className="resume-bullets">
-              <div className="bullet-container">
-                <div className="bullet-icons"></div>
-                <div className="bullets">{getBullets()}</div>
+          <div className="resume-bg">
+            <div className="resume-card">
+              <div className="resume-bullets">
+                <div className="bullet-container">
+                  <div className="bullet-icons"></div>
+                  <div className="bullets">{getBullets()}</div>
+                </div>
               </div>
+              <div className="resume-bullet-details">{getResumeScreens()}</div>
             </div>
-            <div className="resume-bullet-details">{getResumeScreens()}</div>
           </div>
         </div>
       </div>

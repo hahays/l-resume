@@ -60,7 +60,7 @@ const ContactMe = () => {
                 errors={state.errors}
               />
 
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Mail</label>
               <input
                 className="main-input"
                 required

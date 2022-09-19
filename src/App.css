@@ -2,6 +2,24 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-image: linear-gradient(
+    rgb(144 223 124),
+    rgb(108 149 223),
+    rgb(222 146 210)
+  );
+
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
 :root {
   --white: #ffffff;
   --white-green: rgb(202, 250, 234);
@@ -19,11 +37,15 @@ html {
   --blue-green: rgb(37, 179, 148);
   --light-blue-shadow: rgb(69 211 255 / 27%);
   --light-blue: rgb(103, 198, 221);
+  --blue: rgb(108 149 223);
+  --blue-lag: #78acc0;
   --sea: rgb(57, 186, 209);
   --sea-green: #0abead;
   --sea-green-dark: #0cbfae;
   --light-blue-black: #1f2235;
   --green: rgb(60, 218, 60);
+  --lime: #8ed882;
+  --light-green: rgb(145 221 124);
   --sea-green-extra-dark: #09bead;
   --sea-green-shadow: rgba(11, 190, 173, 0.4);
   --orange-shadow: rgba(245, 127, 23, 0.2);

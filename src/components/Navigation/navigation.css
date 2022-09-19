@@ -1,5 +1,30 @@
 .navibar {
-  background: var(--black-shadow);
+  display: block;
+  /* padding: 0.7rem 1.7rem; */
+  z-index: 2;
+  position: fixed;
+  /* right: 0; */
+  /* transform: translateX(-50%); */
+  /* bottom: 2rem; */
+  display: flex;
+  gap: 0.8rem;
+  /* border-radius: 3rem; */
+  -webkit-backdrop-filter: blue(15px);
+  backdrop-filter: blue(15px);
+  display: flex;
+  /* -webkit-box-pack: justify; */
+  justify-content: space-between;
+  -webkit-box-align: center;
+  /* align-items: center; */
+  font-weight: 100;
+  font-size: 0.75rem;
+  height: 3rem;
+  background-color: rgb(145 220 126);
+  color: rgb(0, 0, 0);
+  position: sticky;
+  top: calc(0px);
+  z-index: 6;
+  /* background: rgb(225 168 155);
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
@@ -12,18 +37,28 @@
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blue(15px);
+  background-image: linear-gradient(rgb(225 168 155)); */
 }
 
-.navibar a {
+.navibar-menu a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
-  display: flex;
+  /* display: flex; */
   color: var(--color-light);
   font-size: 1.1rem;
+  text-decoration: none;
+  font-family: Programme;
+  font-family: Poppins "Poppins Regular";
+  text-shadow: 1px 0px 0px #f8f9fa;
 }
 
-.navibar a:hover {
+.navibar-menu a:hover {
+  color: var(--shadow-box);
+  text-decoration: underline;
+}
+
+/* .navibar a:hover {
   background: var(--black-shadow);
 }
 
@@ -44,4 +79,14 @@
     #5fccfb
   );
   color: var(--color-white);
+} */
+
+.navibar-menu {
+  display: flex;
+}
+
+.navibar-social {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
 }
