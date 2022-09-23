@@ -41,15 +41,15 @@ const Profile = () => {
           </div>
           <div className="profile-details-role">
             <p className="profile-role-tagline">
-              My name is Roman, i am a web-developer. Love create some
-              interesting disign for web sites.There is a little information
-              about me and my pet-projects.
+              I am Roman and creating web-sites with a unique disign is one of
+              my biggest passions. Here your can take a look at my latest
+              projects.
             </p>
           </div>
 
           <div className="profile-options">
-            <a href="#contact">
-              <button className="btn primary-btn">SEND</button>
+            <a href="#projects">
+              <button className="btn primary-btn">PROJECTS</button>
             </a>
             <a href={RESUME} download="Roman resume.pdf">
               <button className="btn highlighted-btn">GET RESUME</button>

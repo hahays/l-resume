@@ -1,0 +1,323 @@
+.projects-image img {
+  height: 50%;
+  width: 100%;
+  border-style: groove;
+  box-shadow: 15px 28px 25px -18px rgb(0 0 0 / 20%);
+  transition: 1s;
+}
+
+.projects-image img:hover {
+  height: 50%;
+  width: 100%;
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 20%);
+  transition: 1s;
+}
+
+.projects-image {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: end;
+  margin-top: 84px;
+  padding-bottom: 57px;
+  margin-left: 30px;
+}
+
+.projects-title {
+  margin-top: 20px;
+  display: flex;
+  margin-top: -124px;
+  justify-content: flex-end;
+  font-size: 2rem;
+  white-space: nowrap;
+  font-family: "Poppins SemiBold";
+  color: var(--black);
+  justify-content: center;
+  padding-right: 24px;
+}
+
+.projects-discription {
+  word-wrap: break-word;
+  color: var(--black);
+  font-family: "Poppins Regular";
+  font-size: 1.5vh;
+  /* padding-top: 2px; */
+  margin-top: -31px;
+}
+
+.swiper-pagination {
+  /* margin-top: 50px; */
+  /* padding-right: 80px; */
+}
+
+.projects-button {
+  display: flex;
+  justify-content: center;
+  gap: 59px;
+  padding-right: 14px;
+  margin-top: 19px;
+}
+
+.projects-button .highlighted-btn {
+}
+
+.btn-highlighted-btn {
+  background-color: var(--blue-lag);
+}
+.projects-heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins SemiBold";
+  font-size: 16px;
+  color: var(--white);
+  align-items: center;
+  /* background-attachment: fixed; */
+  box-shadow: 15px 28px 25px -18pxrgba (0, 0, 0, 0.2);
+  flex-grow: 1;
+  /* overflow: hidden; */
+  /* position: absolute; */
+  transition: all 235ms ease 0s;
+}
+
+.projects-container-right {
+  gap: 75%;
+  width: 35%;
+  display: grid;
+}
+
+@media screen and (max-width: 1380px) {
+  .profile-details-name {
+    font-size: 36px;
+  }
+  .profile-details-role p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .projects-title {
+    margin-top: -99px;
+  }
+  .projects-button {
+    gap: 11px;
+  }
+
+  .profile-details-role p {
+    font-size: 14px;
+  }
+
+  .profile-details-role .primary-text {
+    font-size: 12px;
+  }
+
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .projects-title {
+    margin-top: -81px;
+  }
+  .projects-discription {
+    margin-top: -66px;
+  }
+  .projects-button {
+    width: 224px;
+    font-size: 10px;
+    /* padding: 11px 0; */
+    z-index: 700;
+    padding-right: 5px;
+    margin-top: 0px;
+  }
+  .btn {
+    font-size: 12px;
+    height: 47px;
+    width: 99px;
+  }
+  .send-btn button {
+    border-radius: 11px;
+    padding: 14px 0;
+    width: 160px;
+    transition: 0.2s;
+    font-family: "Poppins SemiBold";
+    font-size: 13px;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects-container-right {
+    margin-right: 15px;
+  }
+  .projects-title {
+    margin-top: -60px;
+    font-size: 20px;
+  }
+  .projects-discription {
+    margin-top: -66px;
+  }
+  .projects-button {
+    width: 222px;
+    font-size: 10px;
+    /* padding: 11px 0; */
+    z-index: 700;
+    padding-right: 25px;
+    margin-top: -34px;
+  }
+  .btn {
+    font-size: 12px;
+    height: 47px;
+    width: 99px;
+  }
+}
+
+/* Для ширины 600 пикселей и меньше */
+@media screen and (max-width: 575px) {
+  .projects-card-main {
+    height: 325px;
+    width: 450px;
+  }
+
+  .projects-image {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: end;
+    margin-top: 61px;
+    padding-bottom: 80px;
+    margin-left: 9px;
+  }
+  .projects-container-right {
+    margin-right: 46px;
+  }
+  .projects-title {
+    margin-top: -60px;
+    font-size: 15px;
+  }
+  .projects-discription {
+    margin-top: -66px;
+  }
+  .projects-button {
+    width: 222px;
+    font-size: 10px;
+    /* padding: 11px 0; */
+    z-index: 700;
+    padding-right: 221px;
+    margin-top: -27px;
+  }
+  .btn {
+    font-size: 12px;
+    height: 47px;
+    width: 99px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .projects-card-main {
+    height: 325px;
+    width: 366px;
+  }
+
+  .projects-image {
+  }
+  .projects-container-right {
+    margin-right: 46px;
+  }
+  .projects-title {
+    display: none;
+  }
+  .projects-discription {
+    display: none;
+  }
+  .projects-button {
+    width: 222px;
+    font-size: 10px;
+    /* padding: 11px 0; */
+    z-index: 700;
+    padding-right: 20px;
+    margin-top: -13px;
+    display: grid;
+  }
+  .btn {
+    font-size: 12px;
+    height: 47px;
+    width: 99px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .projects-card-main {
+    height: 230px;
+    width: 292px;
+  }
+
+  .projects-image {
+  }
+  .projects-container-right {
+    margin-right: 46px;
+  }
+  .projects-title {
+    display: none;
+  }
+  .projects-discription {
+    display: none;
+  }
+  .projects-button {
+    width: 222px;
+    font-size: 10px;
+    /* padding: 11px 0; */
+    /* z-index: 700; */
+    padding-right: 62px;
+    margin-top: -7px;
+    display: grid;
+  }
+  .btn {
+    font-size: 10px;
+    height: 47px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .projects-card-main {
+    height: 229px;
+    width: 271px;
+  }
+
+  .projects-image {
+    padding-left: 37px;
+    margin-left: 0px;
+  }
+  .projects-container-right {
+    margin-right: 46px;
+  }
+  .projects-title {
+    display: none;
+  }
+  .projects-discription {
+    display: none;
+  }
+  .projects-button {
+    width: 222px;
+    font-size: 10px;
+    /* padding: 11px 0; */
+    /* z-index: 700; */
+    padding-right: 91px;
+    margin-top: -7px;
+    display: grid;
+  }
+  .btn {
+    font-size: 10px;
+    height: 47px;
+    width: 80px;
+  }
+}

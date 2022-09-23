@@ -1,0 +1,22 @@
+.projects-content {
+  padding-top: 94px;
+}
+
+.empty-box {
+  border-color: black;
+  display: flex;
+  border-style: double;
+  margin-bottom: 80px;
+  background: linear-gradient(340deg, #b1bcd5, #f0f5f1);
+  border: 11px solid #212529;
+  box-shadow: 15px 28px 25px -18px rgb(0 0 0 / 20%);
+  transition: 1s;
+}
+.empty-box:hover {
+  box-shadow: 0px 10px 25px 18px rgb(0 0 0 / 20%);
+  transition: 1s;
+}
+
+.project-card-main {
+  height: 560px;
+}

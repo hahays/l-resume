@@ -2,12 +2,18 @@
   font-size: 36px;
   cursor: pointer;
   margin: 0px 10px;
+  display: flex;
   color: var(--black);
+}
+
+.main-header-socials {
+  align-items: baseline;
+  display: flex;
+  padding-right: 15px;
 }
 
 @media only screen and (max-width: 1110px) {
   .social-icon {
-    display: none;
   }
 }
 
@@ -16,7 +22,106 @@
 }
 
 @media only screen and (max-width: 1110px) {
-  .main-footer-content {
-    width: 75%;
+  .main-header-socials {
+    font-size: medium;
   }
 }
+@media only screen and (max-width: 770px) {
+  .main-header-socials {
+    display: none;
+  }
+}
+
+/* <header class="header">
+<a href="#" class="logo">
+  LR
+</a>
+
+<input class="side-menu" type="checkbox" id="side-menu" />
+<label class="hamb" for="side-menu">
+  <span class="hamb-line"></span>
+</label>
+
+<nav class="nav">
+  <ul class="menu">
+    <li>
+      <a href="#">Gallery</a>
+    </li>
+    <li>
+      <a href="#">Blog</a>{" "}
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+  </ul>
+</nav>
+</header> */
+
+/* <div className="navibar">
+<div className="navibar-menu">
+  <Logo />
+
+  <input
+    className="navibar-side-menu"
+    type="checkbox"
+    id="side-menu"
+  ></input>
+  <label className="hamb" for="side-menu">
+    <span className="hamb-line"></span>
+  </label>
+  <nav className="navibar-main">
+    <ul className="navibar-main-menu">
+      <li>
+        <a
+          href="#"
+          onClick={() => setActiveNav("#")}
+          className={classNames("header-option", {
+            active: selectedScreen === 0,
+          })}
+        >
+          Home
+
+        </a>
+      </li>
+      <li>
+        <a
+          href="#projects"
+          onClick={() => setActiveNav("#projects")}
+          className={classNames("header-option", {
+            active: selectedScreen === 1,
+          })}
+        >
+          Projects
+
+        </a>
+      </li>
+      <li>
+        <a
+          href="#about-me"
+          onClick={() => setActiveNav("#about-me")}
+          className={classNames("header-option", {
+            active: selectedScreen === 2,
+          })}
+        >
+          About Me
+
+        </a>
+      </li>
+      <li>
+        <a
+          href="#contact"
+          onClick={() => setActiveNav("#contact")}
+          className={classNames("header-option", {
+            active: selectedScreen === 3,
+          })}
+        >
+
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<div className="navibar-social">
+  <SocialNet />
+</div>
+</div> */

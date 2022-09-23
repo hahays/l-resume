@@ -1,11 +1,11 @@
 .header-logo {
-  font-size: 30px;
-  font-family: "Poppins ExtraBold";
-  color: var(--white);
   background: var(--black);
-  line-height: 1;
-  display: grid;
-  place-items: center;
+  color: var(--white);
+  /* display: grid; */
+  font-family: Poppins ExtraBold;
+  font-size: xx-large;
   padding-right: 10px;
-  /* margin-left: 100px; */
+  place-items: center;
+  display: inline-block;
+  color: var(--white);
 }

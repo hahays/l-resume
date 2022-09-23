@@ -85,8 +85,3 @@ body ::-webkit-scrollbar-thumb {
     z-index: -900;
   }
 }
-
-.fade-in {
-  transform: translateY(70px);
-  transition: all 0.8s ease;
-}

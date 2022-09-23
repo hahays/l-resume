@@ -1,8 +1,9 @@
 .home-container {
-  display: flex;
+  display: block;
   flex-direction: column;
   /* justify-content: space-between; */
-  height: 85vh !important;
+  height: 96vh !important;
   min-height: 670px;
+  padding-top: 105px;
   /* background-image: linear-gradient(to top, #f2e9bd, #f0eabf, #eeebc1, #ececc3, #eaedc5, #e4ecbd, #deecb6, #d6ecaf, #c3eb9f, #abea91, #8dea87, #64e980); */
 }

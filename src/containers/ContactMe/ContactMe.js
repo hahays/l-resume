@@ -36,7 +36,7 @@ const ContactMe = () => {
       <div className="main-container" id="Contact Me">
         <ScreenHeading
           subHeading={"Let's Keep In Touch"}
-          title={"Contact me"}
+          title={"Contact Me"}
         />
         <div className="central-form">
           <div className="col"></div>
@@ -60,7 +60,7 @@ const ContactMe = () => {
                 errors={state.errors}
               />
 
-              <label htmlFor="email">Mail</label>
+              <label htmlFor="email">Email</label>
               <input
                 className="main-input"
                 required

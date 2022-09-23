@@ -23,7 +23,7 @@ const getSocials = () => {
 };
 
 function SocialNet() {
-  return <div className="main-footer-socials">{getSocials()}</div>;
+  return <div className="main-header-socials">{getSocials()}</div>;
 }
 
 export default SocialNet;
