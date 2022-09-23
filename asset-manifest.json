@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/l-resume/static/css/main.c51bc0f6.css",
-    "main.js": "/l-resume/static/js/main.967ffc6c.js",
+    "main.css": "/l-resume/static/css/main.8a04eb52.css",
+    "main.js": "/l-resume/static/js/main.a00c805a.js",
+    "static/media/gameBox.png": "/l-resume/static/media/gameBox.3c0e3274fbe43f555816.png",
     "static/media/portfoliophoto1.jpg": "/l-resume/static/media/portfoliophoto1.055d8287cb8c98060d8d.jpg",
     "static/media/portfoliophoto-smile.jpg": "/l-resume/static/media/portfoliophoto-smile.3f6bf7e8b1980112fec1.jpg",
-    "static/media/gameBox.png": "/l-resume/static/media/gameBox.b2a16fa0a4c8b101d54b.png",
     "static/media/Poppins-Thin.ttf": "/l-resume/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/l-resume/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/l-resume/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -12,18 +12,18 @@
     "static/media/Poppins-Bold.ttf": "/l-resume/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/l-resume/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/resume.pdf": "/l-resume/static/media/resume.66be1841941aeaaa26e9.pdf",
-    "static/media/todo.png": "/l-resume/static/media/todo.21aebb689bb9bd113153.png",
-    "static/media/marioQuiz.png": "/l-resume/static/media/marioQuiz.f3d63c569614c6be21ea.png",
+    "static/media/todo.png": "/l-resume/static/media/todo.9c70acb6ebeef880495f.png",
+    "static/media/marioQuiz.png": "/l-resume/static/media/marioQuiz.27707aa22732927a12b4.png",
     "index.html": "/l-resume/index.html",
     "static/media/programming-skills.svg": "/l-resume/static/media/programming-skills.3bdce3e65068107428a1.svg",
     "static/media/projects.svg": "/l-resume/static/media/projects.471fe875d8cdcbe0bbc4.svg",
     "static/media/interests.svg": "/l-resume/static/media/interests.311391e8b5ae1f2a7364.svg",
     "static/media/education.svg": "/l-resume/static/media/education.9ed8b53812c3beb648e1.svg",
-    "main.c51bc0f6.css.map": "/l-resume/static/css/main.c51bc0f6.css.map",
-    "main.967ffc6c.js.map": "/l-resume/static/js/main.967ffc6c.js.map"
+    "main.8a04eb52.css.map": "/l-resume/static/css/main.8a04eb52.css.map",
+    "main.a00c805a.js.map": "/l-resume/static/js/main.a00c805a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51bc0f6.css",
-    "static/js/main.967ffc6c.js"
+    "static/css/main.8a04eb52.css",
+    "static/js/main.a00c805a.js"
   ]
 }
